@@ -36,7 +36,7 @@ Most Active Time of Day
 
 Sentiment Analysis of Messages
 
-🛠 Technologies Used
+**🛠 Technologies Used**
 
 Python
 
@@ -54,6 +54,7 @@ TextBlob
 
 **📂 Project Structure
 WhatsApp-Chat-Analyzer**
+
 │
 ├── app.py
 ├── helper.py
@@ -61,6 +62,7 @@ WhatsApp-Chat-Analyzer**
 ├── requirements.txt
 ├── README.md
 └── sample_chat.txt
+
 **📥 How to Use**
 
 Export a WhatsApp chat
@@ -94,8 +96,8 @@ Most common words used in chat
 Emoji usage patterns
 
 Sentiment of conversations
-**
-🎯 Future Improvements**
+****
+🎯 Future Improvements****
 
 Group vs Individual chat comparison
 

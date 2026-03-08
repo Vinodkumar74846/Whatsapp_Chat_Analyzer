@@ -1,12 +1,12 @@
-📊 WhatsApp Chat Analyzer
-📌 Project Overview
+**📊 WhatsApp Chat Analyzer
+📌 Project Overview**
 
 WhatsApp Chat Analyzer is a Python web application that analyzes exported WhatsApp chat data and provides useful insights.
 The application allows users to upload a WhatsApp chat file and view statistics, timelines, activity patterns, and word analysis.
 
 The project is built using Python, Streamlit, Pandas, Matplotlib, and NLP techniques.
 
-🚀 Features
+🚀** Features**
 
 Total Messages Count
 
@@ -52,8 +52,8 @@ WordCloud
 
 TextBlob
 
-📂 Project Structure
-WhatsApp-Chat-Analyzer
+**📂 Project Structure
+WhatsApp-Chat-Analyzer**
 │
 ├── app.py
 ├── helper.py
@@ -61,7 +61,7 @@ WhatsApp-Chat-Analyzer
 ├── requirements.txt
 ├── README.md
 └── sample_chat.txt
-📥 How to Use
+**📥 How to Use**
 
 Export a WhatsApp chat
 
@@ -81,7 +81,7 @@ Upload the .txt chat file.
 
 Click Analyze to see chat insights.
 
-📊 Example Insights
+**📊 Example Insights**
 
 The application can show:
 
@@ -94,8 +94,8 @@ Most common words used in chat
 Emoji usage patterns
 
 Sentiment of conversations
-
-🎯 Future Improvements
+**
+🎯 Future Improvements**
 
 Group vs Individual chat comparison
 

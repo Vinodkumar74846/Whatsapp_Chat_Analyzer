@@ -1,110 +1,113 @@
-**📊 WhatsApp Chat Analyzer
-📌 Project Overview**
+# 📊 WhatsApp Chat Analyzer
 
-WhatsApp Chat Analyzer is a Python web application that analyzes exported WhatsApp chat data and provides useful insights.
+## 📌 Project Overview
+
+**WhatsApp Chat Analyzer** is a Python web application that analyzes exported WhatsApp chat data and provides useful insights.  
 The application allows users to upload a WhatsApp chat file and view statistics, timelines, activity patterns, and word analysis.
 
-The project is built using Python, Streamlit, Pandas, Matplotlib, and NLP techniques.
+The project is built using **Python, Streamlit, Pandas, Matplotlib, and NLP techniques**.
 
-🚀** Features**
+---
 
-Total Messages Count
+## 🚀 Features
 
-Total Words Count
+✨ Total Messages Count  
+✨ Total Words Count  
+✨ Media Files Shared  
+✨ Links Shared  
+✨ Monthly Message Timeline  
+✨ Daily Message Timeline  
+✨ Activity Heatmap  
+✨ Most Busy Users  
+✨ Word Cloud Visualization  
+✨ Most Common Words  
+✨ Emoji Analysis  
+✨ Message Distribution by User  
+✨ Most Active Time of Day  
+✨ Sentiment Analysis of Messages  
 
-Media Files Shared
+---
 
-Links Shared
+## 🛠 Technologies Used
 
-Monthly Message Timeline
+🐍 Python  
+⚡ Streamlit  
+📊 Pandas  
+📉 Matplotlib  
+📈 Seaborn  
+☁️ WordCloud  
+🧠 TextBlob  
 
-Daily Message Timeline
+---
 
-Activity Heatmap
+## 📂 Project Structure
 
-Most Busy Users
-
-Word Cloud Visualization
-
-Most Common Words
-
-Emoji Analysis
-
-Message Distribution by User
-
-Most Active Time of Day
-
-Sentiment Analysis of Messages
-
-**🛠 Technologies Used**
-
-Python
-
-Streamlit
-
-Pandas
-
-Matplotlib
-
-Seaborn
-
-WordCloud
-
-TextBlob
-
-**📂 Project Structure
-WhatsApp-Chat-Analyzer**
-
+```
+WhatsApp-Chat-Analyzer
 │
-├── app.py
-├── helper.py
-├── preprocessor.py
-├── requirements.txt
-├── README.md
-└── sample_chat.txt
+├── 📄 app.py               # Main Streamlit application
+├── 📄 helper.py            # Functions for analysis and visualizations
+├── 📄 preprocessor.py      # Chat data preprocessing
+├── 📄 requirements.txt     # Required Python libraries
+├── 📄 README.md            # Project documentation
+└── 📄 sample_chat.txt      # Sample WhatsApp chat file
+```
 
-**📥 How to Use**
+---
 
+## 📥 How to Use
 
+### 1️⃣ Export a WhatsApp Chat
 
-Export a WhatsApp chat
+1. Open **WhatsApp**
+2. Go to the chat you want to analyze
+3. Click **Export Chat**
+4. Select **Without Media**
+5. Save the **.txt file**
 
-Open WhatsApp
+---
 
-Go to chat
+### 2️⃣ Run the Application
 
-Click Export Chat
-
-Choose Without Media
-
-Run the application
-
+```bash
 streamlit run app.py
+```
 
-Upload the .txt chat file.
+---
 
-Click Analyze to see chat insights.
+### 3️⃣ Upload Chat File
 
-**📊 Example Insights**
+Upload the exported **.txt chat file** in the application and click **Analyze** to see chat insights.
 
-The application can show:
+---
 
-Message activity over time
+## 📊 Example Insights
 
-Most active users
+The application provides insights such as:
 
-Most common words used in chat
+📅 Message activity over time  
+👥 Most active users  
+📝 Most common words used in chat  
+😂 Emoji usage patterns  
+💬 Sentiment analysis of conversations  
 
-Emoji usage patterns
+---
 
-Sentiment of conversations
-****
-🎯 Future Improvements****
+## 🎯 Future Improvements
 
-Group vs Individual chat comparison
+🔹 Group vs Individual chat comparison  
+🔹 Chat reply network visualization  
+🔹 Message prediction using Machine Learning  
+🔹 Deploy as a public web application  
 
-Chat reply network visualization
+---
 
-Message prediction using ML
+## 👨‍💻 Author
 
-Deploy as a public web application
+**Vinod Kumar**  
+🎓 MCA Student  
+🏫 Aurora Deemed to be University  
+
+---
+
+⭐ If you like this project, please consider **starring the repository on GitHub!**
